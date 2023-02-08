@@ -1,5 +1,7 @@
 # Email send with Nodemailer and SendGrid
 
+### Techs: ExpressJS, mongoDB, nodemailer, SendGrid
+
 ## APIS
 
 1. Register the user. 
