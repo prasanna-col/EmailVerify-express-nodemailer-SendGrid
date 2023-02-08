@@ -3,8 +3,8 @@
 ## APIS
 
 1. Register the user. 
-    POST API - http://localhost:8080/users
-    Payload :{
+    - POST API - http://localhost:8080/users
+    - Payload :{
         firstName: "",
 		lastName: "",
 		email: "",
@@ -15,18 +15,18 @@
     - then only they can able to login.
 
 2. Email verify API URL
-    GET API - http://localhost:3000/:id/verify/:token/
-    1. It need frontend port as base URL
+    - GET API - http://localhost:3000/:id/verify/:token/
+    - It need frontend port as base URL
 
 3. Login API
-    POST API - http://localhost:8080/api/auth
-    Payload:{
+    - POST API - http://localhost:8080/api/auth
+    - Payload:{
          email: "", 
          password: ""
     }
 
 4. Test API for send mail through SendGrid
-    GET API - http://localhost:8080/sendgrid/sendmail
+    - GET API - http://localhost:8080/sendgrid/sendmail
     
 
 ## ENV data
