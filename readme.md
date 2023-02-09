@@ -27,8 +27,13 @@
          password: ""
     }
 
+### Direct call
+
 4. Test API for send mail through SendGrid
     - GET API - http://localhost:8080/sendgrid/sendmail
+
+5. Test API for send mail directly through nodemailer
+    - GET API - http://localhost:8080/nodemailer/sendmail
     
 
 ## ENV data
